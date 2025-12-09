@@ -3,7 +3,7 @@
 Este proyecto es una herramienta avanzada para la imputación de datos meteorológicos faltantes (precipitación, temperatura máxima, temperatura mínima y caudales) utilizando técnicas de regresión y aprendizaje automático (Random Forest, LWR, etc.) con predictores espaciales y temporales.
 
 **Desarrollado por:** Ing. Kevin David Condori Quispe  
-**Contacto:** e93163@uajms.edu.bo, ingkevindavid98@gmail.com
+**Contacto:** e93163@uajms.edu.bo, ingkevindavid@gmail.com
 
 ---
 
@@ -80,7 +80,7 @@ El flujo de trabajo se controla principalmente desde el notebook `src/main.ipynb
 
 ### Pasos para Ejecutar
 
-1.  **Configurar Datos**: Asegúrese de que sus archivos CSV (`01_prcp.csv`, `02_tmax.csv`, etc.) y el DEM (`DEM.tif`) estén en las rutas correctas (por defecto `../`).
+1.  **Configurar Datos**: Asegúrese de que sus archivos CSV (`01_prcp.csv`, `02_tmax.csv`, etc.) y el DEM (`DEM.tif`) estén en las rutas correctas (por defecto `../data/stations/`).
 2.  **Abrir Notebook**: Inicie Jupyter Notebook o JupyterLab y abra `src/main.ipynb`.
 3.  **Ajustar Configuración**: En la Celda 1 ("Configuración"), puede modificar:
     *   Métodos a utilizar (`methods=['RF', 'LWR']`).
@@ -104,3 +104,4 @@ Este producto fue diseñado específicamente para solucionar problemas de datos 
 
 ---
 © 2025 Kevin David Condori Quispe. Todos los derechos reservados.
+
